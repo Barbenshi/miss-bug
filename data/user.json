@@ -1,0 +1,33 @@
+[
+  {
+    "fullname": "Bubi Ba",
+    "username": "bubu",
+    "password": "1234",
+    "_id": "Z8cWr"
+  },
+  {
+    "fullname": "Mimi Na",
+    "username": "mimuna",
+    "password": "1234",
+    "_id": "qEI9G"
+  },
+  {
+    "fullname": "Kuki Ra",
+    "username": "kuku",
+    "password": "1234",
+    "_id": "rdE3w"
+  },
+  {
+    "fullname": "Chimi Churi",
+    "username": "tavoris",
+    "password": "meow",
+    "_id": "3LWCr"
+  },
+  {
+    "fullname": "Admin adom",
+    "username": "admin",
+    "password": "admin",
+    "isAdmin": "true",
+    "_id": "3LWSS"
+  }
+]

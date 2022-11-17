@@ -7,7 +7,7 @@ const userService = require('./services/user.service')
 
 const app = express()
 
-if (process.env.NODE_ENV === 'production') logger.setLevel('ERROR')
+// if (process.env.NODE_ENV === 'production') logger.setLevel('ERROR')
 
 const PORT = process.env.PORT || 3030
 

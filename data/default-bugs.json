@@ -19,12 +19,5 @@
     "severity": "2",
     "createdAt": "3213218672",
     "creator": { "_id": "Vv58l", "fullname": "Guli Yat" }
-  },
-  {
-    "title": "Syntax Error",
-    "severity": "3",
-    "_id": "jihui927",
-    "createdAt": "3273827382",
-    "creator": { "_id": "Vv58l", "fullname": "Guli Yat" }
   }
 ]

@@ -10,20 +10,21 @@
     }
   },
   {
+    "_id": "CfNHw",
+    "title": "Component emits not declared",
+    "severity": "1",
+    "createdAt": "1238213627",
+    "creator": {
+      "_id": "3LWCr",
+      "fullname": "Chimi Churi"
+    },
+    "description": "fdfdfd"
+  },
+  {
     "_id": "6g7J1",
     "title": "Can't Read Undefined",
     "severity": "2",
     "createdAt": "3213218672",
-    "creator": {
-      "_id": "Vv58l",
-      "fullname": "Guli Yat"
-    }
-  },
-  {
-    "title": "Syntax Error",
-    "severity": "3",
-    "_id": "jihui927",
-    "createdAt": "3273827382",
     "creator": {
       "_id": "Vv58l",
       "fullname": "Guli Yat"

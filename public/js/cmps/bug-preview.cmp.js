@@ -4,7 +4,7 @@ import { userService } from "../services/user-service.js"
 
 export default {
   props: ['bug'],
-  template: `<article className="bug-preview">
+  template: `<article v-if="bug" className="bug-preview">
                 <span>🐛</span>
                 <h4>{{bug.title}}</h4>
                 <span :class='"severity" + bug.severity'>Severity: {{bug.severity}}</span>
@@ -23,7 +23,9 @@ export default {
   computed: {
     isLoggedInUser() {
       if(!userService.getLoggedInUser()) return false
-      return ((userService.getLoggedInUser() && userService.getLoggedInUser()._id === this.bug.creator._id)
+      console.log(userService.getLoggedInUser())
+      console.log(this.bug);
+      return (userService.getLoggedInUser()._id === this.bug.creator._id
       || userService.getLoggedInUser().isAdmin)
     }
   }

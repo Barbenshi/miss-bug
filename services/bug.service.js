@@ -41,7 +41,8 @@ function save(bug, credentials) {
     if (bug._id) {
         const bugIdx = gBugs.findIndex(currBug => currBug._id === bug._id)
         if (gBugs[bugIdx].creator._id !== credentials._id && !credentials.isAdmin) return Promise.reject('Not authorized')
-        gBugs[bugIdx] = bug
+        gBugs[bugIdx].description = bug.description
+        gBugs[bugIdx].severity = bug.severity
     } else {
         bug.createdAt = Date.now() + ''
         bug._id = _makeId()

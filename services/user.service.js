@@ -2,7 +2,7 @@ const gUsers = require('../data/user.json')
 
 const fs = require('fs')
 const Cryptr = require('cryptr')
-const cryptr = new Cryptr('secret-puk-1234')
+const cryptr = new Cryptr(process.env.CODE || 'secret-puk-1234')
 
 module.exports = {
     query,
